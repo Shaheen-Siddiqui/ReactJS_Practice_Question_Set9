@@ -1,0 +1,67 @@
+ReactJS Practice Question Set 9
+
+Instructions:#
+Do these questions in a React JS template editor. You can use React JS CodeSandbox or React JS REPL.
+This set is about practicing React Router and useContext in React.
+You can make use of methods such as .map(), .filter(), .reduce(), .length, .toLowerCase(), .toUpperCase(), .push, .includes wherever needed.
+Do NOT use for-loops.
+
+Questions#
+Create an Email app in React with different routes:
+
+Landing Page - It shows a heading and two routes - Inbox and Sent
+Inbox Page - It should have the list of all received emails.
+Individual Email Page - It should show content of that particular opened email.
+Show two counters on the top of Inbox page for number for Read emails and Unread emails. Have a button for each email in the inbox email listing page for emails which have read as false. If you mark an email as read, the counter value for read and unread emails should change. Do this using context.
+Sent Page - It should have the list of all sent emails similar to inbox page but without any buttons to mark as read. If you click on any of the sent emails, it should open that individual email in a unique route.
+Fake fetch has been provided.
+
+
+
+2) Create a books app in React. It should have the following routes:
+
+a. Home page - This renders all the books coming from the api. Fake fetch has been provided below.
+
+b. Favorites Page
+
+There would be a button along with each of the book of Add to Fav. On clicking that, the book should be added to favourites. Do this using context. And if the book already exists in favourites, the button should be texted Go to Fav - The navbar item should show the count of books in favourites.
+
+c. Read page
+
+There will be button of Mark as read. On clicking it, the book will be added to Read page. Do this using context. If already exists, the button should be texted Already read
+
+d. Profile page - It should display the user details coming from the result of the api.
+
+
+
+3) Create an online food ordering app in React, with the following routes.
+
+a. Home page - Home page should say “Welcome to neoG Food Ordering App” and it should have a button, that navigates to menu page.
+
+b. Menu page:
+
+Menu page should display all the items from the menu. Fake fetch has been provided.
+Menu page should have a search bar to search for an item.
+Menu page should have filters of isVeg , isSpicy and sort by price (both ascending and descending).
+Each item should have the button to add that item to cart. On click of the button, that food item should be added to cart, for ordering it. Do this using context. If the item already exists in the cart, make the button text as go to cart on the menu page.
+
+c. Cart Page
+
+Cart page should show all the food items that were added to cart, the total price of all the items in cart, and the total time required to deliver all the products in minutes.
+
+There should be an option to apply coupon which reduces the total cost by 5Rs of the total amount.
+
+
+4) Create a video listing app in React, with the following routes.
+
+a. Home
+b. Videos listing - If you click on “Explore Videos” button or “Videos” in the navbar, you should land to this page.
+
+c. Liked videos - It should show the list of videos that you have liked. If you click on the Like button on the video listing page, that video should get added to the Liked Videos page. Do this using context.
+
+d. Watch later videos - It should show the list of videos that you have added to watch later. If you click on the Add to watch later button on the video listing page, that video should get added to the Watch Later page. Do this using context.
+
+e. Individual video page - “Watch here” should bring you to the individual video page.
+
+
+
